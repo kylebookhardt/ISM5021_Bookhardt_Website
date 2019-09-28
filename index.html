@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("oktoberfest1.jpg"); }
+.img2 { background-image: url("oktoberfest2.jpg"); }
+.img3 { background-image: url("oktoberfest3.jpg"); }
+.img4 { background-image: url("oktoberfest4.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. Kyle FTW!</p>
-
-<div style="background-image: url('oktoberfest1.jpg');">
-
-<img src="balls.jpg" alt="Gaming balls"></img>
+<h1>Oktoberfest 2019</h1>
+<p>Kyle FTW!</p>
 
 </body>
 </html>
